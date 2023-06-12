@@ -1,98 +1,85 @@
-# Writing good how-to or tutorial
+# Machine Monitor
 
-Before you start writing, read the following materials how to write good documentation (including how-tos).
+This example shows how to use the Industrial Edge App "Machine Monitor". The app provides transparency of the maintenance status of connected machines and allows the user to fully utilize the capabilities  of the Industrial Edge Ecosystem.
 
-* [Google Developer style guide](https://developers.google.com/style)
-* [Technical writing Courses](https://developers.google.com/tech-writing)
-* [Microsoft Writing Style Guide](https://docs.microsoft.com/cs-cz/style-guide/welcome/)
-
-Then decide: Are you writing a tutorial or a how-to guide?
-
-[Divio](https://documentation.divio.com/) explains the difference  (Note that this applies for software documentation for application developers)
-
-* Tutorials are lessons that take the reader by the hand through a series of steps to complete a project of some kind. They are what your project needs in order to show a beginner that they can achieve something with it. https://documentation.divio.com/tutorials/
-* How-to guides take the reader through the steps required to solve a real-world problem
-
-Each have a different writing style. Tutorials must be bullet proof (no unexpected behavior) https://documentation.divio.com/how-to-guides/
-
-Note: Try to write the tutorials and how-tos as a standalone html page, ready to be generated using Static site generator [MkDocs](https://www.mkdocs.org/). When referencing code examples or files, use the full URL of the git repository. We want to reuse these how-tos and tutorials in Documentation website.
-
-Don't explain concepts. [It gets in a way of action](https://documentation.divio.com/how-to-guides/#don-t-explain-concepts).  
-
-Don't use HTML tags unless working with videos. And try to avoid using videos unless absolutely necessary. Don't upload videos to Git repository.
-
-Bellow you can find the structure of IE tow-to/tutorial
-
-- [Writing good how-to or tutorial](#writing-good-how-to-or-tutorial)
+- [Machine Monitor](#Machine-Monitor)
   - [Description](#description)
     - [Overview](#overview)
-    - [General Task](#general-task)
+    - [General task](#general-task)
   - [Requirements](#requirements)
-    - [Prerequisites](#prerequisites)
+    - [Prerequisities](#prerequisities)
     - [Used components](#used-components)
-  - [Installation](#installation)
+    - [TIA project](#tia-project)
+  - [Configuration steps](#configuration-steps)
   - [Usage](#usage)
   - [Documentation](#documentation)
   - [Contribution](#contribution)
   - [Licence and Legal Information](#licence-and-legal-information)
 
+
 ## Description
 
 ### Overview
 
-Why has been this how-to/tutorial created? What is the purpose?
+This example shows how to collect data from a PLC into the Industrial Edge system, followed by leveraging the mentioned data to have a better understanding of the maching state and provide the users with maintenance state of the machine.
 
-### General Task
+![overview](docs/graphics/Overview.PNG)
 
-What is the general goal/task of this how-to/tutorial?
+### General task
 
-![task](docs/graphics/example_graphic.png)
+The example reads data from a PLC via the S7 Connector application using the S7 protocol. The acquired data is published to the IE Databus, where the Data Service is able to collect the data. The Data Service allows the user to identify data points of interest and classify them as assests. 
+
+Afterwards, the Machine Monitor app connects to the Data Service and allows the user to create rules and templates to adminstrate the maintenance process of the machine using the assets created in the Data Service.
 
 ## Requirements
 
-### Prerequisites
+###  Prerequisities
 
-What are the requirements on the user knowledge, HW components before starting the how-to?
+- Access to an Industrial Edge Management System (IEM)
+- Onboarded Industial Edge Device on IEM
+- Installed System Configurators for Databus and S7 Connector
+- Installed System Apps Databus and S7 Connector
+- Installed Data Service
+- Installed Machine Monitor
+- Edge device is connected to PLC
+- TIA portal project loaded on PLC
+- HTML5-capable Internet browser (In general it is advised to use Chrome except for Linux based systems it is recommended to use Firefox)
 
 ### Used components
 
-List the used software and hardware components that were tested with this how-to.
-Add the used components here (e.g.)
+- Industrial Edge Management V1.2.0-36 / V1.2.16
+  - IE Databus V2.1.0-4
+  - S7 Connector V1.8.1-7 
+  - Data Service V1.2.0
+  - Machine Monitor v 2.4.0
+  - Common Connector Configurator V1.8.2-3
+  - IE Databus Configurator V2.1.0-3 
+- Industrial Edge Device V 1.12.0-3
+- TIA Portal V18
+- S7-PLCSIM Advanced V3.0
 
-* Industrial Edge App Publisher V1.0.8
-* Docker Engine 18.09.6
-* Docker Compose V2.4
-* S7 Connector V 1.0.22
-* S7 Connector Configurator V 1.0.9
-* Industrial Edge Device V 1.0.0-34
-* TIA Portal V16
-* PLC: CPU 1511 FW 2.8.3
+### TIA Project
 
-## Installation
+The used TIA Portal project can be found in the miscellaneous repository under "[tank application](https://github.com/industrial-edge/miscellaneous/tree/main/tank%20application)".
 
-How to install/run this application example? (i.e. how to deploy it to Industrial Edge device?) How to build this application? How to set up configurations in IE?
+## Configuration steps
 
-To keep the readme.md file as short as possible please add more detailed information in the docs folder.
-
-* [Build application](docs/Installation.md#build-application)
+You can find the further information about the following steps in the [docs](docs/Installation.md)
+- Configure PLC Connection (Databus, S7 Connector)
+- Configure Data Service
+- Configure Machine Monitor
 
 ## Usage
 
-When the app is installed, how can I use it? Usually some basic UI description to prove that the app is working correctly.
+Once the configuration process is done, the user can now track and adminstrate the the maintenance state of the machine by leveraging the features provided by the Machine Monitor app.
 
 ## Documentation
 
-Add links to documentation. Either on external URL or in the doc folder. Please use always link to a file not to a directory (it doesn't work with static site generator engines).
-
-Add these links:
-
 You can find further documentation and help in the following links
-
-* [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
-* [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
-* [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
-* [Industrial Edge GitHub page](https://github.com/industrial-edge)
-
+  - [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
+  - [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
+  - [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
+  
 ## Contribution
 
 Thank you for your interest in contributing. Anybody is free to report bugs, unclear documentation, and other problems regarding this repository in the Issues section.
@@ -100,7 +87,6 @@ Additionally everybody is free to propose any changes to this repository using P
 
 If you are interested in contributing via Pull Request, please check the [Contribution License Agreement](Siemens_CLA_1.1.pdf) and forward a signed copy to [industrialedge.industry@siemens.com](mailto:industrialedge.industry@siemens.com?subject=CLA%20Agreement%20Industrial-Edge).
 
-## License and Legal Information
+## Licence and Legal Information
 
-Please read the [Legal information](LICENSE.txt).
-
+Please read the [Legal information](LICENSE.md).
