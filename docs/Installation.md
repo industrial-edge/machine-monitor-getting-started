@@ -104,15 +104,16 @@ By clicking on the **variables preview** icon, the user can check if the data is
 
 To access the Machine Monitor application, the user needs to install it on the IE Device and click on the application icon. Upon opening the application, the user will see the following figure:
 
-![machine_monitor](graphics/Machine_Monitor_First_Window.png)
+![machine_monitor](graphics/Machine_Monitor_First_Contact.png) 
 
 The settings configured in the Data Service app are imported by the Machine Monitor app. By default, the Machine Monitor starts by opening the parent asset, which in this case is "edge." However, in this example, the child asset "Tank_Filling_Application" is where the assets are configured. The user can click on the child asset, as highlighted in the figure, to preview the available parameters and explore all the features.
 
 ![machine_monitor](graphics/Machine_Monitor_First_Window.png)
 
-After selecting the "Tank_Filling_Application" child asset, click on the dropdown button highlighted in the picture below and select "parameters"
-
 ### Configured Parameters
+
+After selecting the "Tank_Filling_Application" child asset, click on the dropdown button highlighted in the picture below and select "parameters":
+
 ![machine_monitor](graphics/Machine_Monitor_dropdown.png)
 
 The user can now see all the configured data points for this asset, as shown in the figure below. The "Tank_Filling_Application" asset has four data points configured:
@@ -245,6 +246,7 @@ All three rules are assigned to the child asset named "Tank_Filling_Application"
 The figure below highlights the necessary inputs that the user has to provide to configure the rule named " Conveyor Belt Lubrication - Bottle Produced": 
 
 1- Define a component identifier
+
 2- Define when should the Machine Monitor app start applying the rule
 
 This rule had two triggers, the first trigger is the number of produced bottles and the second is a Date:
