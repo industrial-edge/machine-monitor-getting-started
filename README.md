@@ -1,6 +1,6 @@
 # Machine Monitor
 
-This example shows how to use the Industrial Edge App "Machine Monitor". The app provides transparency of the maintenance status of connected machines and allows the user to fully utilize the capabilities  of the Industrial Edge Ecosystem.
+This example shows how to use the Industrial Edge app "Machine Monitor".
 
 - [Machine Monitor](#Machine-Monitor)
   - [Description](#description)
@@ -16,18 +16,17 @@ This example shows how to use the Industrial Edge App "Machine Monitor". The app
   - [Contribution](#contribution)
   - [Licence and Legal Information](#licence-and-legal-information)
 
-
 ## Description
 
 ### Overview
 
-This example shows how to collect data from a PLC into the Industrial Edge system, followed by leveraging the mentioned data to have a better understanding of the maching state and provide the users with maintenance state of the machine.
+The app Machine Monitor provides transparency of the maintenance status of connected machines and allows the user to fully utilize the capabilities of the Industrial Edge Ecosystem. This tutorial shows how to collect data from a PLC into the Industrial Edge system, followed by leveraging the data to have a better understanding of the machine state and finally provide transparancy of the maintenance status of the machine.
 
 ![overview](docs/graphics/Overview.PNG)
 
 ### General task
 
-The example reads data from a PLC via the S7 Connector application using the S7 protocol. The acquired data is published to the IE Databus, where the Data Service is able to collect the data. The Data Service allows the user to identify data points of interest and classify them as assests. 
+The example reads data from a PLC via the S7 Connector application using the S7 protocol. The acquired data is published to the IE Databus, from where the Data Service is able to collect the data. The Data Service allows the user to identify data points of interest, classify them as assests and store the data for further usage.
 
 Afterwards, the Machine Monitor app connects to the Data Service and allows the user to create rules and templates to adminstrate the maintenance process of the machine using the assets created in the Data Service.
 
@@ -64,10 +63,11 @@ The used TIA Portal project can be found in the miscellaneous repository under "
 
 ## Configuration steps
 
-You can find the further information about the following steps in the [docs](docs/Installation.md)
-- Configure PLC Connection (Databus, S7 Connector)
-- Configure Data Service
-- Configure Machine Monitor
+You can find further information about the following steps in the [Configuration](/docs/Installation.md) documentation:
+
+- [Configure PLC Connection](/docs/Installation.md#configure-plc-connection) (Databus, S7 Connector)
+- [Configure Data Service](/docs/Installation.md#configure-data-service)
+- [Configure Machine Monitor](/docs/Installation.md#configure-machine-monitor)
 
 ## Usage
 
@@ -75,11 +75,13 @@ Once the configuration process is done, the user can now track and adminstrate t
 
 ## Documentation
 
-You can find further documentation and help in the following links
+You can find further documentation and help in the following links:
+
   - [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
   - [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
   - [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
-  
+  - [Industrial Edge GitHub page](https://github.com/industrial-edge)
+
 ## Contribution
 
 Thank you for your interest in contributing. Anybody is free to report bugs, unclear documentation, and other problems regarding this repository in the Issues section.
