@@ -227,7 +227,9 @@ Similar to the first rule, the user can create instructions and add maintenance 
 
 ### Configuring the third rule
 
-Click "New Maintenance Rule" to create a third rule "Quality Control - Defective Bottles" with the rule type "Parameter limits". This rule monitors the quality and efficiency of the production line based on the remaining parameter "numberFaulty".
+Click "New Maintenance Rule" to create a third rule "Quality Control - Defective Bottles" with the rule type "Intervals". This rule monitors the quality and efficiency of the production line based on the remaining parameter "numberFaulty". As highlighed in the figure below, once the number of defective bottles reach 200 bottle, the rule will be triggered and the service staff will have to carry out the linked instruction.
+
+![machine_monitor](graphics/Machine_Monitor_Third_Rule_Limit.png)
 
 The procedure to create this rule is the same as the two previous rules. If everything has been done correctly, the user can now see the available templates, as highlighted in the figure below:
 
