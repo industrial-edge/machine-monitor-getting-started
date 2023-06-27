@@ -308,7 +308,7 @@ Regarding the extrapolation feature that the Machine Monitor app provides, the u
 
 ![machine_monitor](graphics/Machine_Monitor_Extrapolation.png)
 
-### Creating an Operating hours counter
+### Operating hours counter
 
 Service and maintenance teams frequently rely on the operating hours of a machine as a parameter to determine the machine's health state and when maintenance should be performed. The Machine Monitor app enables users to create an operating hours counter, even if it wasn't programmed in the controller or directly available through the machine. To configure the operating hours counter, a new rule of type "Intervals" is created to demonstrate the process.
 
