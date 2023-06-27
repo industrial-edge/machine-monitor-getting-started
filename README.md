@@ -20,7 +20,7 @@ This example shows how to use the Industrial Edge app "Machine Monitor".
 
 ### Overview
 
-The app Machine Monitor provides transparency of the maintenance status of connected machines and allows the user to fully utilize the capabilities of the Industrial Edge Ecosystem. This tutorial shows how to collect data from a PLC into the Industrial Edge system, followed by leveraging the data to have a better understanding of the machine state and finally provide transparancy of the maintenance status of the machine.
+The app Machine Monitor provides transparency of the maintenance status of connected machines and allows the user to fully utilize the capabilities of the Industrial Edge Ecosystem. This tutorial shows how to collect data from a PLC into the Industrial Edge system, followed by leveraging the data to have a better understanding of the machine state and finally provide transparency  of the maintenance status of the machine.
 
 ![overview](docs/graphics/Overview.PNG)
 
@@ -87,6 +87,14 @@ Once the number of produced bottles surpasses a certain value ("305 Bottles") or
 After running the Tank Filling example simulation for a period of time, the rule is activated through the first trigger. The number of produced bottles has exceeded the threshold value, and the service staff is notified through the app. The figure below highlights the activation of the rule and provides the user with the status of the other trigger.
 
 ![machine_monitor](docs/graphics/Machine_Monitor_First_Rule_Notification.png)
+
+The service staff shall perform the corresponding maintenance routine and confirm this in the Machine Monitor app. After completing the maintenance task, the service staff shall log the details of the performed maintenance in the Machine Monitor app. The figure below illustrates the logging process, ensuring accurate and up-to-date records of the maintenance activities.
+
+![machine_monitor](docs/graphics/Machine_Monitor_Register_New_Maintenance.png)
+
+The Machine Monitor app will reset the rule that was triggered after the maintenance task is completed and the rule is no longer activated. The figure below introduces the state of the rule after carrying out the maintenance routine.
+
+![machine_monitor](docs/graphics/Machine_Monitor_Status_Changed.png)
 
 ## Documentation
 
