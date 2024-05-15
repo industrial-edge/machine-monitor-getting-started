@@ -22,13 +22,13 @@ This example shows how to use the Industrial Edge app "Machine Monitor".
 
 The app Machine Monitor provides transparency of the maintenance status of connected machines and allows the user to fully utilize the capabilities of the Industrial Edge Ecosystem. This tutorial shows how to collect data from a PLC into the Industrial Edge system, followed by leveraging the data to have a better understanding of the machine state and finally provide transparency  of the maintenance status of the machine.
 
-![overview](docs/graphics/Overview.PNG)
+![machinemonitor](docs/graphics/machinemonitor.png)
 
 ### General task
 
-The example reads data from a PLC via the S7 Connector application using the S7 protocol. The acquired data is published to the IE Databus, from where the Data Service is able to collect the data. The Data Service allows the user to identify data points of interest, classify them as assests and store the data for further usage.
+The example reads data from a PLC via the S7 Connector application using the S7 protocol. The acquired data is published to the Databus, from where the IIH Essentials is able to collect the data. The IIH Essentials allows the user to identify data points of interest, classify them as assests and store the data for further usage.
 
-Afterwards, the Machine Monitor app connects to the Data Service and allows the user to create rules and templates to adminstrate the maintenance process of the machine using the assets created in the Data Service.
+Afterwards, the Machine Monitor app connects to the IIH Essentials and allows the user to create rules and templates to adminstrate the maintenance process of the machine using the assets created in the IIH Essentials.
 
 ## Requirements
 
@@ -38,7 +38,7 @@ Afterwards, the Machine Monitor app connects to the Data Service and allows the 
 - Onboarded Industial Edge Device on IEM
 - Installed System Configurators for Databus and S7 Connector
 - Installed System Apps Databus and S7 Connector
-- Installed Data Service
+- Installed IIH Essentials
 - Installed Machine Monitor
 - Edge device is connected to PLC
 - TIA portal project loaded on PLC
