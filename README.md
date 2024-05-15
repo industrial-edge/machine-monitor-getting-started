@@ -46,16 +46,15 @@ Afterwards, the Machine Monitor app connects to the IIH Essentials and allows th
 
 ### Used components
 
-- Industrial Edge Management V1.2.0-36 / V1.2.16
-  - IE Databus V2.1.0-4
-  - S7 Connector V1.8.1-7 
-  - Data Service V1.6.0
-  - Machine Monitor v 2.4.0
-  - Common Connector Configurator V1.8.2-3
-  - IE Databus Configurator V2.1.0-3 
-- Industrial Edge Device V 1.12.0-3
+- Industrial Edge Management V1.16.11
+  - Databus V2.3.3-2
+  - S7 Connector V2.1.1-0 
+  - IIH Essentials V1.10.0-0
+  - Machine Monitor V2.6.0
+  - Common Configurator V1.10.0-4
+- Industrial Edge Device V 1.12.0-10
 - TIA Portal V18
-- S7-PLCSIM Advanced V3.0
+- S7-PLCSIM Advanced V5.0
 
 ### TIA Project
 
