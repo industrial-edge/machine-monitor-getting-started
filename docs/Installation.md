@@ -48,7 +48,7 @@ Add a user with this topic:
 
 The user can preview if the topic was created successfully:
 
-![Databususerpreview](graphics/Databususerpreview.PNG)
+![Databususerpreview1](graphics/Databususerpreview1.PNG)
 
 Last step is to deploy the configuration.
 
@@ -58,27 +58,32 @@ In your IEM open the S7 Connector and launch the configurator.
 
 Add a data source:
 
-![S7 Connector Data Source](graphics/S7_Connector_Data_Source.PNG)
+![AdddatasourceS7](graphics/AdddatasourceS7.PNG)
 
 For this example the following tags are added:
 
-![s7_connector_config](graphics/S7_Connector_Configuration.PNG)
+- GDB.signals.tanksSignals.actLevel
+- GDB.signals.tankSignals.actTemprature
+- GDB.process.numberProduced
+- GDB.process.numberFaulty
+
+![S7tags](graphics/S7tags.PNG)
 
 Edit the settings:
 
-![s7_connector_settings](graphics/S7_Connector_Settings.PNG)
+![databussettings](graphics/databussettings.PNG)
 
 Hint: Username and password should be the same for all system apps, e.g. "edge" / "edge".
 
 Deploy and start the project.
 
-## Configure Data Service
+## Configure IIH Essentials
 
-In your IED Web UI open the app Data Service.
+In your IED Web UI open the app IIH Essentials.
 
 ### Configure the adapter
 
-Click the icon "Adapters" on the left bar. The Data Service provides users with the ability to collect data from the different connectors. In this example, the S7-connector is used for the data collection.
+Click the icon "Adapters" on the left bar. The IIH Essentials provides users with the ability to collect data from the different connectors. In this example, the S7-connector is used for the data collection.
 
 To connect to an adapter choose the adapter you want to use. Click the edit icon on the right side of the SIMATIC S7 Connector option to open the adapter configuration. The Broker URL should be prefilled with `"tcp://ie-databus:1883"`. Add the missing entries for username and password (again "edge"/"edge"). Set the status to 'Active' and save your configuration.
 
