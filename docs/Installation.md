@@ -44,11 +44,11 @@ In your IEM open the Databus and launch the configurator.
 Add a user with this topic:
 `"ie/#"`
 
-![ie_databus_user](graphics/IE_Databus_User.PNG)
+![databususer](graphics/databususer.PNG)
 
 The user can preview if the topic was created successfully:
 
-![ie_databus](graphics/IE_Databus.PNG)
+![Databususerpreview](graphics/Databususerpreview.PNG)
 
 Last step is to deploy the configuration.
 
