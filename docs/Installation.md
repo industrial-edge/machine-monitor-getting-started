@@ -4,7 +4,7 @@
   - [Configure PLC connection](#configure-plc-connection)
     - [Configure Databus](#configure-databus)
     - [Configure S7 Connector](#configure-s7-connector)
-  - [Configure Data Service](#configure-data-service)
+  - [Configure Data Service](#configure-IIH-Essentials)
     - [Configure the adapter](#configure-the-adapter)
     - [Configure an asset with variables](#configure-an-asset-with-variables)
   - [Configure Machine Monitor](#configure-machine-monitor)
@@ -26,7 +26,7 @@
 
 ## Configure PLC connection
 
-To retrieve data from the Programmable Logic Controller (PLC), the S7 Connector app is used. The connector establishes a connection to the PLC through the S7 optimized Protocol. The S7 Connector transfers the acquired data to the Databus, enabling the Data Service app to receive it. Subsequently, users can configure specific data points of interest as assets. These assets are then accessible to the Machine Monitor app, which allows users to define maintenance rules and templates to govern the machine's state. As mentioned earlier, we will use the tank application example to demonstrate the features of the Machine Monitor application:
+To retrieve data from the Programmable Logic Controller (PLC), the S7 Connector app is used. The connector establishes a connection to the PLC through the S7 optimized Protocol. The S7 Connector transfers the acquired data to the Databus, enabling the IIH Essentials app to receive it. Subsequently, users can configure specific data points of interest as assets. These assets are then accessible to the Machine Monitor app, which allows users to define maintenance rules and templates to govern the machine's state. As mentioned earlier, we will use the tank application example to demonstrate the features of the Machine Monitor application:
 
 ![Tank_Application](graphics/Tia_Tank_Application.PNG)
 
@@ -34,7 +34,7 @@ In order to build this infrastructure, the followings apps must be configured pr
 
 - S7 Connector
 - Databus
-- Data Service
+- IIH Essentials
 - Machine Monitor
 
 ### Configure Databus
