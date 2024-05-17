@@ -4,7 +4,7 @@
   - [Configure PLC connection](#configure-plc-connection)
     - [Configure Databus](#configure-databus)
     - [Configure S7 Connector](#configure-s7-connector)
-  - [Configure Data Service](#configure-IIH-Essentials)
+  - [Configure IIH Essentials](#configure-IIH-Essentials)
     - [Configure the adapter](#configure-the-adapter)
     - [Configure an asset with variables](#configure-an-asset-with-variables)
   - [Configure Machine Monitor](#configure-machine-monitor)
@@ -83,7 +83,11 @@ In your IED Web UI open the app IIH Essentials.
 
 ### Configure the adapter
 
-Click on the icon `"Settings"` on the left side bar. The open the databus settings and enter the user name and password of user created in Databus Configurator
+Click on the icon `"Settings"` on the left side bar. The open the databus settings and enter the user name and password of user created in Databus Configurator.
+
+![IIHessentialsdatabus1](graphics/IIHessentialsdatabus1.PNG)
+
+
 Click the icon "Adapters" on the left bar. The IIH Essentials provides users with the ability to collect data from the different connectors. In this example, the S7-connector is used for the data collection.
 
 To connect to an adapter choose the adapter you want to use. Click the edit icon on the right side of the SIMATIC S7 Connector option to open the adapter configuration. The Broker URL should be prefilled with `"tcp://ie-databus:1883"`. Add the missing entries for username and password (again "edge"/"edge"). Set the status to 'Active' and save your configuration.
