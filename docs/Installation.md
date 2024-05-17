@@ -87,6 +87,10 @@ Click on the icon `"Settings"` on the left side bar. The open the databus settin
 
 ![IIHessentialsdatabus1](graphics/IIHessentialsdatabus1.PNG)
 
+Click on the icon `Connectors` on the left sidebar. To add a connector click on the `plus` icon. IIH Essentials discovers automatically all available connectors. 
+
+![IIHessentialsdatabus1](graphics/IIHessentialsdatabus1.PNG)
+
 
 Click the icon "Adapters" on the left bar. The IIH Essentials provides users with the ability to collect data from the different connectors. In this example, the S7-connector is used for the data collection.
 
