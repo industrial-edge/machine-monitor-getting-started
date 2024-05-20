@@ -108,7 +108,7 @@ On the left sidebar, click the `Assets & Connectivity` icon. Under "Hierarchy," 
 
 > Hint: In the current release of the Machine Monitor, it is not possible to collect data from the parent asset "edge."
 
-![data_service_assets](graphics/Data_Service_Child_Asset.PNG)
+![IIHaddvar](graphics/IIHaddvar.PNG)
 
 The child asset is named " Tank_Filling_Application", the user is free to name the chil asset as needed. Click "Add multiple variables" on the right side to collect the needed data points from the S7 Connector. 
 
