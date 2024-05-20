@@ -112,11 +112,11 @@ On the left sidebar, click the `Assets & Connectivity` icon. Under "Hierarchy," 
 
 The child asset is named " Tank_Filling_Application", the user is free to name the chil asset as needed. Click "Add multiple variables" on the right side to collect the needed data points from the S7 Connector. 
 
-![data_service_assets](graphics/Data_Service_Adding_variables.PNG)
+![IIHtageoverview](graphics/IIHtageoverview.PNG)
 
-By clicking on the **variables preview** icon, the user can check if the data is being collected correctly from the IE Databus and get a preview of the collected data.
+By clicking on the **variables preview** icon, the user can check if the data is being collected correctly from the Databus and get a preview of the collected data.
 
-![data_service_assets](graphics/Data_Service_History.PNG)
+![IIHdatapreview](graphics/IIHdatapreview.PNG)
 
 ## Configure Machine Monitor
 
