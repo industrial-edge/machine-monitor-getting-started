@@ -93,25 +93,18 @@ Click on the icon `Connectors` on the left sidebar. To add a connector click on 
 
 To use the connector click on `Add`. After that the connector must be activated. Therefore select this connector and click on `edit`, set `status` to active and save.
 
-![IIHS7active](graphics/IIHS7active.PNG)
+![IIHedit](graphics/IIHedit.PNG)
 
 The connector (here S7 Connector) is now activated and connected to the IIH Essentials.
 
 ![IIHS7active](graphics/IIHS7active.PNG)
 
-Click the icon "Adapters" on the left bar. The IIH Essentials provides users with the ability to collect data from the different connectors. In this example, the S7-connector is used for the data collection.
-
-To connect to an adapter choose the adapter you want to use. Click the edit icon on the right side of the SIMATIC S7 Connector option to open the adapter configuration. The Broker URL should be prefilled with `"tcp://ie-databus:1883"`. Add the missing entries for username and password (again "edge"/"edge"). Set the status to 'Active' and save your configuration.
-
-![data_service_adapter_config](graphics/Data_Service_Adapter_Config.png)
-
-The adapter (in this case, SIMATIC S7 Connector) should now be activated and connected to the Data Service.
-
-![data_service_adapter](graphics/Data_Service_Adapter.png)
 
 ### Configure an asset with variables
 
-On the left sidebar, click the "Assets & Connectivity" icon. Under "Hierarchy," you can find the parent asset "edge." To enable the Machine Monitor example to collect data from the Data Service app, you need to create a child asset in the Data Service with a name for the machine.
+An asset is a digital representation of a machine or automation system with one or more automation units (e.g.PLC). The data that describes an Asset is collected and stored. The data is then available for further processing and evaluation.
+
+On the left sidebar, click the `Assets & Connectivity` icon. Under "Hierarchy," you can find the parent asset "edge." To enable the Machine Monitor example to collect data from the IIH Essentials app, you need to create a child asset in the IIH Essentials with a name for the machine.
 
 > Hint: In the current release of the Machine Monitor, it is not possible to collect data from the parent asset "edge."
 
