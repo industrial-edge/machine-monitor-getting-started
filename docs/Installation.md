@@ -122,17 +122,17 @@ By clicking on the **variables preview** icon, the user can check if the data is
 
 To access the Machine Monitor application, the user needs to install it on the IE Device and click on the application icon. Upon opening the application, the user will see the following figure:
 
-![machine_monitor](graphics/Machine_Monitor_First_Contact.png) 
+![Machinemonitoroverview](graphics/Machinemonitoroverview.PNG) 
 
-The settings configured in the Data Service app are imported by the Machine Monitor app. By default, the Machine Monitor starts by opening the parent asset, which in this case is "edge." However, in this example, the child asset "Tank_Filling_Application" is where the assets are configured. The user can click on the child asset, as highlighted in the figure, to preview the available parameters and explore all the features.
+The settings configured in the IIH Essentials app are imported by the Machine Monitor app. By default, the Machine Monitor starts by opening the parent asset, which in this case is "edge." However, in this example, the child asset "Tank_Filling_Application" is where the assets are configured. The user can click on the child asset, as highlighted in the figure, to preview the available variables and explore all the features.
 
-![machine_monitor](graphics/Machine_Monitor_First_Window.png)
+![Machinemonitorasset](graphics/Machinemonitorasset.png)
 
 ### Configured parameters
 
-After selecting the "Tank_Filling_Application" child asset, click on the dropdown button highlighted in the picture below and select "parameters":
+After selecting the "Tank_Filling_Application" child asset, click on the dropdown button highlighted in the picture below and select "variables":
 
-![machine_monitor](graphics/Machine_Monitor_dropdown.png)
+![Machinemonitorvariables](graphics/Machinemonitorvariables.PNG)
 
 The user can now see all the configured data points for this asset, as shown in the figure below. The "Tank_Filling_Application" asset has four data points configured:
 
@@ -141,7 +141,7 @@ The user can now see all the configured data points for this asset, as shown in 
 - Tank Temperature in celsius
 - Tank level in liters
 
-![machine_monitor](graphics/Machine_Monitor_Configured_Datapoints.png)
+![Machinemonitortags.PNG](graphics/Machinemonitortags.PNG)
 
 The Machine Monitor example utilize these acquired data points to create maintenance rules and templates to govern the state and health of the process. The first rule states that when the number of produced bottles exceeds a certain number, a maintenance routine has to be carried out. A second rule can be created for the number of faulty bottles, where if the value of the variable exceeds a certain threshold, the process has to be stopped and inspected. Third and fourth rules can be created for the temperature and level of the tank to ensure that the process is running correctly and the system is free from any issues.
 
