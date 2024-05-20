@@ -167,19 +167,19 @@ The Machine Monitor application offers three different rule types to choose from
 
 The **Intervals** rule allows the user to define either a time parameter or a usage parameter as a trigger. Once an interval rule is triggered, it can be repeated multiple times based on specific requirements.
 
-The **Parameter limits** rule allows the user to select a particular process value and define a threshold for it. When the threshold is exceeded, the maintenance rule is triggered.
+The **Parameter limits** rule allows the user to select a particular process value and define a threshold for it. When the threshold is exceeded, the Monitoring rule is triggered.
 
-The **2-D characteristic curve** type enables the integration of the "Data Explorer" app, allowing the creation of a maintenance rule based on the relationship between two datasets derived from the process values. However, for the purpose of this example and its scope, only the "Intervals" and "Parameter limits" types will be demonstrated.
+The **2-D characteristic curve** type enables the integration of the "Data Explorer" app, allowing the creation of a Monitoring rule based on the relationship between two datasets derived from the process values. However, for the purpose of this example and its scope, only the "Intervals" and "Parameter limits" types will be demonstrated.
 
-To begin configuring rules, click on the "Configuration" icon in the sidebar, and then select "Maintenance Rules," as highlighted in the figure below.
+To begin configuring rules, click on the "Configuration" icon in the sidebar, and then select "Monitoring Rules," as highlighted in the figure below.
 
-![machine_monitor](graphics/Machine_Monitor_Setting.png) 
+![Monitorrules](graphics/Monitorrules.PNG) 
 
-The user will be directed to the page shown in the figure below. If any previous rules have been configured, they can be previewed here. To create a new rule, click on the "New Maintenance Rule" button, as highlighted in the figure below.
+The user will be directed to the page shown in the figure below. If any previous rules have been configured, they can be previewed here. To create a new rule, click on the "New Monitoring Rule" button, as highlighted in the figure below.
 
-![machine_monitor](graphics/Machine_Monitor_First_Rule_Creation.png)
+![Addnewmonitoringrules](graphics/Addnewmonitoringrules.PNG)
 
-> Note: If the browser being used is not compatible with the system, the Machine Monitor app may not display the "New Maintenance Rule" button.
+> Note: If the browser being used is not compatible with the system, the Machine Monitor app may not display the "New Monitoring Rule" button.
 
 In this example, three rules will be created to demonstrate the features of the Machine Monitor app:
 
