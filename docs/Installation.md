@@ -207,15 +207,15 @@ Next, the user can define the "Due limit" and "Overdue limit" for the "Produced 
 
 In the instructions section, it is possible to provide text instructions or add a PDF file to guide the maintenance team:
 
-![machine_monitor](graphics/Machine_Monitor_Instruction.png)
+![instructionwithtext](graphics/instructionwithtext.PNG)
 
 After configuring the relevant instructions and settings, the Machine Monitor allows the user to add any relevant documents to the maintenance process in the final step:
 
-![machine_monitor](graphics/Machine_Monitor_Documents.png)
+![Linkdocument](graphics/Linkdocument.PNG)
 
 Clicking on "Finish" completes the configuration process, and the rule "Conveyor Belt Lubrication - Bottle Produced" can be previewed in the configuration window:
 
-![machine_monitor](graphics/Machine_Monitor_Rules_Overview.png)
+![Monitoringruleoverview](graphics/Monitoringruleoverview.PNG)
 
 ### Configuring the second rule
 
