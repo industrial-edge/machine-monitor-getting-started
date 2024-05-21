@@ -189,17 +189,17 @@ In this example, three rules will be created to demonstrate the features of the 
 
 ### Configuring the first rule
 
-Click "New Maintenance Rule" to create a rule "Conveyor Belt Lubrication - Bottles Produced" for the lubrication of the conveyor belt used to transport the produced bottles. Firstly, the user needs to provide a name for the rule and choose the rule type "Intervals":
+Click "New Monitoring Rules" to create a rule "Conveyor Belt Lubrication - Bottles Produced" for the lubrication of the conveyor belt used to transport the produced bottles. Firstly, the user needs to provide a name for the rule and choose the rule type "Intervals":
 
-![machine_monitor](graphics/Machine_Monitor_General_Config.png)
+![FirstruleGenralconfig](graphics/FirstruleGenralconfig.PNG)
 
-Set two maintenance triggers for the rule: the usage parameter and the time parameter. In summary, both parameters are defined, and when either of them is exceeded, the Machine Monitor notifies the machine operator that a maintenance routine needs to be performed.
+Set two Parameter(s) for the rule: the usage parameter and the time parameter. In summary, both parameters are defined, and when either of them is exceeded, the Machine Monitor notifies the machine operator that a maintenance routine needs to be performed.
 
-![machine_monitor](graphics/Machine_Monitor_Trigger.png)
+![Parametertrigger](graphics/Parametertrigger.PNG)
 
 Once the triggers for the rule have been defined, the user needs to specify the interval pattern. This pattern determines how the machine operator should carry out the maintenance and if any routine should be repeated. The available patterns and their explanations are shown in the figure below:
 
-![machine_monitor](graphics/Machine_Monitor_Interval_Pattern.png)
+![Limitsinstruction](graphics/Limitsinstruction.PNG)
 
 Next, the user can define the "Due limit" and "Overdue limit" for the "Produced Bottles" trigger and set the periodic maintenance period for the conveyor belt. To create new instructions for the maintenance routine, click on "Create New Instruction":
 
