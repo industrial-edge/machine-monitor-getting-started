@@ -248,7 +248,7 @@ Click "New Monitoring Rule" to create a third rule "Quality Control - Defective 
 
 The procedure to create this rule is the same as the two previous rules. If everything has been done correctly, the user can now see the available templates, as highlighted in the figure below:
 
-![machine_monitor](graphics/Machine_Monitor_Avaliable_Rules.png)
+![monitoringrulesoverview](graphics/monitoringrulesoverview.PNG)
 
 ### Assigning rules to assets
 
