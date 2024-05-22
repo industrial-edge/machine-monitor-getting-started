@@ -252,13 +252,10 @@ The procedure to create this rule is the same as the two previous rules. If ever
 
 ### Assigning rules to assets
 
-The three rules are now configured and ready to be associated with the corresponding assets. To assign rules to assets, the user needs to open the "Overview" tab and click on "Asset Configuration" or "Go to Asset Configuration":
+The three rules are now configured and ready to be associated with the corresponding assets. To assign rules to assets, the user needs to open the "Overview" tab and click on "Add rule" and select "Assign predefined monitoring rules" as highlighted in the figure below:
 
-![machine_monitor](graphics/Machine_Monitor_Asset_Configuration.png)
+![Addruleasset](graphics/Addruleasset.PNG)
 
-Click on "Assign Maintenance Rules":
-
-![machine_monitor](graphics/Machine_Monitor_Assign_Rules.png)
 
 Select all the three rules and click "assign" as highlighted below:
 
