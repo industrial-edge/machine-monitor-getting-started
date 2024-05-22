@@ -257,7 +257,7 @@ The three rules are now configured and ready to be associated with the correspon
 ![Addruleasset](graphics/Addruleasset.PNG)
 
 
-Select all the three rules and click "assign" as highlighted below:
+Select all the three Monitoring rules and click "assign" as highlighted below:
 
 ![machine_monitor](graphics/Machine_Monitor_Assign.png)
 
