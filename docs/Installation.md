@@ -261,25 +261,23 @@ Select all the three Monitoring rules and click "assign" as highlighted below:
 
 ![Assignmonitoringrules](graphics/Assignmonitoringrules.PNG)
 
-All three rules are assigned to the child asset named "Tank_Filling_Application". The last step is to connect each rule with the corresponding process value. The user can see all the assigned rules by clicking on each rule, as highlighted in the figure below. By clicking on each rule, it is possible to configure the process value associated with the rule. Now, click on the first rule "Conveyor Belt Lubrication - Bottle Produced" to finish the configuration process:
+All three rules are assigned to the child asset named "Tank_Filling_Application". The last step is to connect each rule with the corresponding process value. The user can see all the assigned rules by clicking on each rule, as highlighted in the figure below. By clicking on each rule, it is possible to configure the process value associated with the rule. Now, click on the first rule "Quality Control-Defective Bottles" to finish the configuration process:
 
-![machine_monitor](graphics/Machine_Monitor_Assigned_Rules.png)
+![Addruleincomplete](graphics/Addruleincomplete.PNG)
 
-The figure below highlights the necessary inputs that the user has to provide to configure the rule named "Conveyor Belt Lubrication - Bottle Produced" of type " Interval": 
+The figure below highlights the necessary inputs that the user has to provide to configure the rule named "Quality Control - Defective Bottles" of type " Interval": 
 
 1. Define a component identifier
 
 2. Define when the Machine Monitor app should start applying the rule
 
-This rule had two triggers, the first trigger is the number of produced bottles and the second is a Date
+This rule had two triggers, the first trigger is the number of Faulty bottles and the second is a Date
 
-3. Choose the parameter of relevance to the rule (for this rule, select the Number of Produced Bottles) and aggregation type (None)
+3. Choose the parameter of relevance to the rule (for this rule, select the Number of Faulty Bottles) and aggregation type (None)
 
 Note: The Machine Monitor app provides the user with a projection for connected parameters based on two methods (Linear extrapolation or Polynomial extrapolation )
 
-4. Since the second trigger is a date, there is no more configuration needed
-
-![machine_monitor](graphics/Machine_Monitor_Configuration_Of_Rule.png)
+![Linkvariable](graphics/Linkvariable.PNG)
 
 After providing all the required information, click on "Save". By following the same steps, the user can configure the remaining two rules. The only difference is that for the parameter-based rule, the user defines the "Calculation period" instead of the interval starting time for the rule to perform the aggregation process if required.
 
