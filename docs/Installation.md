@@ -259,7 +259,7 @@ The three rules are now configured and ready to be associated with the correspon
 
 Select all the three Monitoring rules and click "assign" as highlighted below:
 
-![machine_monitor](graphics/Machine_Monitor_Assign.png)
+![Assignmonitoringrules](graphics/Assignmonitoringrules.PNG)
 
 All three rules are assigned to the child asset named "Tank_Filling_Application". The last step is to connect each rule with the corresponding process value. The user can see all the assigned rules by clicking on each rule, as highlighted in the figure below. By clicking on each rule, it is possible to configure the process value associated with the rule. Now, click on the first rule "Conveyor Belt Lubrication - Bottle Produced" to finish the configuration process:
 
