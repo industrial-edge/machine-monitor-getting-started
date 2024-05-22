@@ -219,14 +219,14 @@ Clicking on "Finish" completes the configuration process, and the rule "Conveyor
 
 ### Configuring the second rule
 
-Click "New Maintenance Rule" to create a second rule "Tank - Health State" with the rule type "Parameter limits". This rule monitors the health state of the process based on two parameters:
+Click "New Monitoring Rule" to create a second rule "Tank - Health State" with the rule type "Parameter limits". This rule monitors the health state of the process based on two parameters:
 
 - The actual level of the liquid in the tank
 - The tank temperature
 
 The configuration of the second rule follows the same process as the first rule:
 
-![machine_monitor](graphics/Machine_Monitor_Rule_Two.png)
+![secondruleimagecombined](graphics/secondruleimagecombined.png)
 
 The user needs to define limits for the configured triggers. As highlighted in the figure below, the user must set limits for three main sections:
 
@@ -236,7 +236,7 @@ The user needs to define limits for the configured triggers. As highlighted in t
 
 The user also needs to define the lowest and highest values for the trigger. For example, for the temperature parameter, the range is set from 0 to 100 °C. The figure below shows the values provided for the temperature trigger, and the same process is followed for the liquid level parameter.
 
-![machine_monitor](graphics/Machine_Monitor_Rule_Two_Limits.png)
+![Secondrulelimits](graphics/Secondrulelimits.PNG)
 
 Similar to the first rule, the user can create instructions and add maintenance documents if needed.
 
