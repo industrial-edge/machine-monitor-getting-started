@@ -296,10 +296,10 @@ The "Lubrication Rule" is activated first to introduce the application features.
 ![Activate](graphics/Activate1.PNG)
 
 
-By clicking on the rule, the user can preview the current state and monitor any changes in either of the two triggers. For the produced bottles trigger, it can be deduced that it has already reached the limit and exceeded it by 21 bottles. As for the second trigger, there are still 29 days remaining. To remove the alert state of the rule, the machine operator has to carry out the maintenance routine. This can be registered using the "Register Maintenance" button highlighted in red in the figure below.
+By clicking on the rule, the user can preview the current state and monitor any changes in either of the two triggers. For the produced bottles trigger, it can be deduced that it has already reached the limit and exceeded it by 3 bottles. As for the second trigger, there are still 29 days remaining. To remove the alert state of the rule, the machine operator has to carry out the maintenance routine. This can be registered using the "Register Maintenance" button highlighted in red in the figure below.
 
 
-![machine_monitor](graphics/Machine_Monitor_Inside_Rule.png)
+![overdue](graphics/overdue.PNG)
 
 ### Maintenance routine logging
 
