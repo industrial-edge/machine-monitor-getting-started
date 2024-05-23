@@ -303,13 +303,17 @@ By clicking on the rule, the user can preview the current state and monitor any 
 
 ### Maintenance routine logging
 
-By clicking on "Register Maintenance", the user can start entering the details of the maintenance that was carried out. The user needs to check the list of instructions as highlighted in step 1 and then click on "Submit" as step 2.
+By clicking on the "Lubrication Rule", the user needs to select the "Maintenance" and then "Register maintenance job" as highlighted in step 1 and then step 2.
 
-![machine_monitor](graphics/Machine_Monitor_Register_New_Maintenance.png)
+![Maintanence](graphics/Maintanence.PNG)
 
-After submitting the maintenance, the Machine Monitor app resets the rule and logs the maintenance activity in the maintenance log. Now the status of the rule is changed to "Ok (not due)".
+By clicking on "Register Maintenance job", the user can start entering the details of the maintenance that was carried out. The user needs to check the list of instructions as highlighted in step 1 and then click on "Submit" as step 2.
 
-![machine_monitor](graphics/Machine_Monitor_Status_Changed.png)
+![Maintancenceconfig](graphics/Maintancenceconfig.PNG)
+
+After submitting the maintenance, the Machine Monitor app resets the rule and logs the maintenance activity in the maintenance log. Now the status of the rule is changed to "Ok".
+
+![Nodue](graphics/Nodue.PNG)
 
 > Note: The Machine Monitor app acquires data every 20 seconds. However, in future versions, the Machine Monitor app will be able to acquire data at a faster rate.
 
