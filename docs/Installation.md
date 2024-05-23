@@ -261,21 +261,23 @@ Select all the three Monitoring rules and click "assign" as highlighted below:
 
 ![Assignmonitoringrules](graphics/Assignmonitoringrules.PNG)
 
-All three rules are assigned to the child asset named "Tank_Filling_Application". The last step is to connect each rule with the corresponding process value. The user can see all the assigned rules by clicking on each rule, as highlighted in the figure below. By clicking on each rule, it is possible to configure the process value associated with the rule. Now, click on the first rule "Quality Control-Defective Bottles" to finish the configuration process:
+All three rules are assigned to the child asset named "Tank_Filling_Application". The last step is to connect each rule with the corresponding process value. The user can see all the assigned rules by clicking on each rule, as highlighted in the figure below. By clicking on each rule, it is possible to configure the process value associated with the rule. Now, click on the rule "Conveyor Belt Lubrication - Bottle Produced" to finish the configuration process:
 
 ![Addruleincomplete](graphics/Addruleincomplete.PNG)
 
-The figure below highlights the necessary inputs that the user has to provide to configure the rule named "Quality Control - Defective Bottles" of type " Interval": 
+The figure below highlights the necessary inputs that the user has to provide to configure the rule named "Conveyor Belt Lubrication - Bottle Produced" of type "Interval": 
 
 1. Define a component identifier
 
 2. Define when the Machine Monitor app should start applying the rule
 
-This rule had two triggers, the first trigger is the number of Faulty bottles and the second is a Date
+This rule had two triggers, the first trigger is the number of produced bottles and the second is a Date
 
-3. Choose the parameter of relevance to the rule (for this rule, select the Number of Faulty Bottles) and aggregation type (None)
+3. Choose the parameter of relevance to the rule (for this rule, select the Number of Produced Bottles) and aggregation type (None)
 
 Note: The Machine Monitor app provides the user with a projection for connected parameters based on two methods (Linear extrapolation or Polynomial extrapolation )
+
+4. Since the second trigger is a date, there is no more configuration needed
 
 ![Linkvariable](graphics/Linkvariable.PNG)
 
@@ -288,7 +290,7 @@ The user can now see that all the rules are marked as completed but not yet acti
 ![Notactivate](graphics/Notactivate.PNG)
 
 
-The "Quality Rule" is activated first to introduce the application features. This is done by clicking on the three dots and selecting "Activate". The rule is now activated. After activating the rule and letting it run until we receive the first notification, the user can preview the rule by clicking on the child asset "Tank_Filling_Application". As shown in the figure below, the "Quality Rule" is activated and it has produced its first alert. This rule has one trigger: the number of Faulty bottles. The number of Faulty bottles has reached the maintenance limit that we previously defined (Due limit: 200 Bottles, Overdue limit: 201 Bottles).
+The "Lubrication Rule" is activated first to introduce the application features. This is done by clicking on the three dots and selecting "Activate". The rule is now activated. After activating the rule and letting it run until we receive the first notification, the user can preview the rule by clicking on the child asset "Tank_Filling_Application". As shown in the figure below, the "Lubrication Rule" is activated and it has produced its first alert. This rule has one trigger: the number of Faulty bottles. The number of Faulty bottles has reached the maintenance limit that we previously defined (Due limit: 200 Bottles, Overdue limit: 201 Bottles).
 
 
 ![Activate](graphics/Activate.PNG)
