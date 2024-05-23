@@ -313,7 +313,7 @@ By clicking on "Register Maintenance job", the user can start entering the detai
 
 After submitting the maintenance, the Machine Monitor app resets the rule and logs the maintenance activity in the maintenance log. Now the status of the rule is changed to "Ok".
 
-![Nodue](graphics/Nodue.PNG)
+![Nodue](graphics/Nodue1.PNG)
 
 > Note: The Machine Monitor app acquires data every 20 seconds. However, in future versions, the Machine Monitor app will be able to acquire data at a faster rate.
 
