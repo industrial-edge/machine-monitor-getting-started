@@ -321,7 +321,7 @@ After submitting the maintenance, the Machine Monitor app resets the rule and lo
 
 Regarding the extrapolation feature that the Machine Monitor app provides, the user can preview the estimation provided by the app by clicking on the icon highlighted in the figure below. The app provides the user with an estimation regarding how much time is left until the limit is reached and a projection for future values.
 
-![machine_monitor](graphics/Machine_Monitor_Extrapolation.png)
+![Graph](graphics/Graph.PNG)
 
 ### Operating hours counter
 
