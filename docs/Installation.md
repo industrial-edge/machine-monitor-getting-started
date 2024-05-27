@@ -381,7 +381,7 @@ The user can save the configuration of the Machine Monitor app using the "Backup
 
 ![machine_monitor](graphics/Machine_Monitor_Backup.png)
 
-Note: The structure of the Machine Monitor is directly related to the structure of the Data Service app, if the configuration of the Data Service app changes after the creation of the backup this will lead to a mismatch error in the Backup file.
+Note: The structure of the Machine Monitor is directly related to the structure of the IIH Essentials app, if the configuration of the IIH Essentials app changes after the creation of the backup this will lead to a mismatch error in the Backup file.
 
 ### Customization of the Machine Monitor app
 
