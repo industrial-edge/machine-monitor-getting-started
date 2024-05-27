@@ -387,10 +387,10 @@ Note: The structure of the Machine Monitor is directly related to the structure 
 
 The user can also customize the app logo and upload a new one, this can be done by clicking "Settings" and then "User Information".
 
-![machine_monitor](graphics/Machine_Monitor_Custom_logo.png)
+![Userinformationmerge](graphics/Userinformationmerge.png)
 
 Within the area "Custom logo" the user can upload a new logo. This replaces the "Siemens" logo and will be displayed in the top left corner of the application.
 
-![machine_monitor](graphics/Machine_Monitor_Siemens_Logo.png)
+![logomerge](graphics/logomerge.png)
 
 This allows the user to personalize the Machine Monitor app with their own logo, adding an unique touch to the application's appearance.
