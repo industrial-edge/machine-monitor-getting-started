@@ -357,11 +357,11 @@ The Machine Monitor app provides the user with two logging mechanisms to track t
 
 The tab **Maintenance logbook** tracks all the maintenance jobs that have been performed and any changes or resets to the rules. The maintenance job that was carried out earlier in this example is logged in the maintenance logbook.
 
-![machine_monitor](graphics/Machine_Monitor_Maintenance_logbook.png)
+![Maintenancelogbook](graphics/Maintenancelogbook.PNG)
 
 The tab **Event log** provides the user with an overview of the state of the activated rules. It lists details regarding the state of different rules and when they switched states.
 
-![machine_monitor](graphics/Machine_Monitor_Eventlog.png)
+![Eventlog](graphics/Eventlog.PNG)
 
 ### Notification settings
 
