@@ -70,9 +70,9 @@ You can find further information about the following steps in the [Configuration
 
 ## Usage
 
-Once the Machine Monitor application is successfully configured and deployed, service staff and machine operators can leverage the features provided by the Machine Monitor to manage the state of the machine and ensure the completion of all maintenance routines. In the figure below, the Machine Monitor app is used to configure a maintenance rule called "Conveyor Belt Lubrication - Bottles Produced." This rule ensures that the machine operator lubricates the conveyor belt used in the Tank example when specific conditions are met.
+Once the Machine Monitor application is successfully configured and deployed, service staff and machine operators can leverage the features provided by the Machine Monitor to manage the state of the machine and ensure the completion of all maintenance routines. In the figure below, the Machine Monitor app is used to configure a monitoring rules called "Conveyor Belt Lubrication - Bottles Produced." This rule ensures that the machine operator lubricates the conveyor belt used in the Tank example when specific conditions are met.
 
-![machine_monitor](docs/graphics/Machine_Monitor_Rules_Overview.png)
+![machine_monitor](docs/graphics/Monitoringruleoverview.PNG)
 
 The mentioned rule consists of two triggers or conditions. When the trigger threshold is reached or met, the rule is activated, and the service staff is required to perform the corresponding maintenance routine instructed by the machine manufacturers. The following triggers are configured for this rule:
 
@@ -81,19 +81,19 @@ The mentioned rule consists of two triggers or conditions. When the trigger thre
 
 Once the number of produced bottles surpasses a certain value ("305 Bottles") or 30 calendar days have passed since the deployment of the rule, the service staff receives a notification indicating that the threshold value has been reached, and the maintenance routine defined in the Machine Monitor app must be carried out. The figure below displays the mentioned triggers.
 
-![machine_monitor](docs/graphics/Machine_Monitor_Trigger.png)
+![machine_monitor](docs/graphics/Parametertrigger.PNG)
 
 After running the Tank Filling example simulation for a period of time, the rule is activated through the first trigger. The number of produced bottles has exceeded the threshold value, and the service staff is notified through the app. The figure below highlights the activation of the rule and provides the user with the status of the other trigger.
 
-![machine_monitor](docs/graphics/Machine_Monitor_First_Rule_Notification.png)
+![Activate1](docs/graphics/Activate1.PNG)
 
 The service staff shall perform the corresponding maintenance routine and confirm this in the Machine Monitor app. After completing the maintenance task, the service staff shall log the details of the performed maintenance in the Machine Monitor app. The figure below illustrates the logging process, ensuring accurate and up-to-date records of the maintenance activities.
 
-![machine_monitor](docs/graphics/Machine_Monitor_Register_New_Maintenance.png)
+![Maintancenceconfig](docs/graphics/Maintancenceconfig.PNG)
 
 The Machine Monitor app will reset the rule that was triggered after the maintenance task is completed and the rule is no longer activated. The figure below introduces the state of the rule after carrying out the maintenance routine.
 
-![machine_monitor](docs/graphics/Machine_Monitor_Status_Changed.png)
+![Nodue1](docs/graphics/Nodue1.PNG)
 
 ## Documentation
 
