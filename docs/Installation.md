@@ -341,7 +341,7 @@ To assign the rule to the asset, click on "Add rule" and then assign the rule to
 
 Although there may not be a parameter indicating the operating hours of the machine, the Machine Monitor app allows users to create the operating hours counter using other process values. This is achieved by linking a process value to the rule and selecting the "Timer" aggregation type. When the linked process value has a value greater than zero, the timer will start, considering the machine to be operating and counting the operating hours. Detailed explanations of different aggregation types can be found in the Machine Monitor manual. The figure below highlights how to link and configure the aggregation type. In this example, the variable "bottles produced" is linked to the rule, and the "Timer" aggregation type is selected with "Hour" as the unit. As long as the "bottles produced" variable has a value greater than 0, the timer will track the machine's operating hours. It's worth noting that the linked variable can be of type "Boolean," and the timer will be on whenever the value is set to "True" and turn off when the value becomes "False."
 
-![variablesoperation](graphics/variablesoperation.PNG)
+![variablesoperation](graphics/variablesoperation1.PNG)
 
 After activating the rule, users can verify the successful creation of the operating hours counter by clicking on the "Operating Hours Counter" rule.
 
