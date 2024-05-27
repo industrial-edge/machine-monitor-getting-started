@@ -65,7 +65,7 @@ The used TIA Portal project can be found in the miscellaneous repository under "
 You can find further information about the following steps in the [Configuration](/docs/Installation.md) documentation:
 
 - [Configure PLC Connection](/docs/Installation.md#configure-plc-connection) (Databus, S7 Connector)
-- [Configure Data Service](/docs/Installation.md#configure-data-service)
+- [Configure IIH Essentials](/docs/Installation.md#configure-IIH-Essentials)
 - [Configure Machine Monitor](/docs/Installation.md#configure-machine-monitor)
 
 ## Usage
