@@ -367,13 +367,13 @@ The tab **Event log** provides the user with an overview of the state of the act
 
 The Machine Monitor apps provides the user with the ability to send notification in case a rule reached the threshold value or a maintenance job is required. The user can either connect the Machine Monitor app to the Notifier app or use the Machine Monitor app directly to send emails.
 
-In order to configure this feature, the user needs to clicks on "Asset configuration".
+In order to configure this feature, the user needs to clicks on "Asset settings".
 
-![machine_monitor](graphics/Machine_Monitor_Asset_Config.png)
+![Assetsettings](graphics/Assetsettings.PNG)
 
-Choose the tab "General settings" and enable the connection to the Notifier app or enable the Email function (therefore the user needs also setup the connection to an email server via the settings page).
+Enable the connection to the Notifier app or enable the Email function (therefore the user needs also setup the connection to an email server via the settings page).
 
-![machine_monitor](graphics/Machine_Monitor_General_Settings.png)
+![notificationsettings](graphics/notificationsettings.PNG)
 
 ### Backup and restore function
 
