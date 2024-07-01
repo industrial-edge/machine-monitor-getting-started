@@ -95,7 +95,7 @@ To use the connector click on `Add`. After that the connector must be activated.
 
 ![IIHedit](graphics/IIHedit.PNG)
 
-The connector (here S7 Connector) is now activated and connected to the IIH Essentials.
+The connector (here SIMATIC S7 Connector) is now activated and connected to the IIH Essentials.
 
 ![IIHS7active](graphics/IIHS7active.PNG)
 
