@@ -148,11 +148,11 @@ The Machine Monitor example utilize these acquired data points to create mainten
 
 Note: If the configured parameters do not appear in the Machine Monitor application, the user needs to check the configuration of the IIH Essentials application and then verify the credentials used for connecting the Machine Monitor application to the Databus. To do this, click on the "Settings" tab in the sidebar and then select "Connectivity Configuration," as highlighted in the figure below:
 
-![Machinemonitorconfigsettings](graphics/Machinemonitorconfigsettings.PNG)
+![Machinemonitorsettings](graphics/Machinemonitorsettings.PNG) 
 
 The user will then see the figure below and can check the credentials and address used for connecting the Machine Monitor app to the Databus app, as well as test the connection:
 
-![Machinemonitorsettings](graphics/Machinemonitorsettings.PNG) 
+![Machinemonitorconfigsettings](graphics/Machinemonitorconfigsettings.PNG)
 
 ### Configuring rules and templates
 
