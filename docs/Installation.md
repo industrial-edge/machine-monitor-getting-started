@@ -67,7 +67,7 @@ For this example the following tags are added:
 - GDB.process.numberProduced
 - GDB.process.numberFaulty
 
-![S7tags](graphics/S7tags.PNG)
+![S7tags](graphics/S7connectordeploy.PNG)
 
 Edit the settings:
 
