@@ -99,6 +99,7 @@ The connector (here SIMATIC S7 Connector) is now activated and connected to the 
 
 ![IIHS7active](graphics/IIHS7active.PNG)
 
+Once the SIMATIC S7 Connector is activated, Follw the Configure an asset with variable for configuration of Assets and Variables
 
 ### Configure an asset with variables
 
