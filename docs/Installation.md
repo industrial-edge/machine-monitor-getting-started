@@ -142,7 +142,7 @@ The user can now see all the configured data points for this asset, as shown in 
 
 ![Machinemonitortags.PNG](graphics/Machinemonitortags.PNG)
 
-The Machine Monitor example utilize these acquired data points to create maintenance rules and templates to govern the state and health of the process. The first rule states that when the number of produced bottles exceeds a certain number, a maintenance routine has to be carried out. A second rule can be created for the number of faulty bottles, where if the value of the variable exceeds a certain threshold, the process has to be stopped and inspected. Third and fourth rules can be created for the temperature and level of the tank to ensure that the process is running correctly and the system is free from any issues.
+The Machine Monitor example utilize these acquired data points to create maintenance rules and templates to govern the state and health of the process. In this example four rules will be created to demonstrate the features of the applications. The first rule states that when the number of produced bottles exceeds a certain number, a maintenance routine has to be carried out. A second rule can be created for the number of faulty bottles, where if the value of the variable exceeds a certain threshold, the process has to be stopped and inspected. Third and fourth rules can be created for the temperature and level of the tank to ensure that the process is running correctly and the system is free from any issues.
 
 ### Connectivity troubleshooting
 
