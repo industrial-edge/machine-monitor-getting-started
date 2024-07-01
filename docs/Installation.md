@@ -44,7 +44,7 @@ In your IEM open the Databus and launch the configurator.
 Add a user with this topic:
 `"ie/#"`
 
-![databususer](graphics/databususer.PNG)
+![databususer](graphics/databususer1.PNG)
 
 The user can preview if the topic was created successfully:
 
