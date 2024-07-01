@@ -200,7 +200,7 @@ Once the triggers for the rule have been defined, the user needs to specify the 
 
 ![Limitsinstruction](graphics/Limitsinstruction.PNG)
 
-Next, the user can define the "Due limit" and "Overdue limit" for the "Produced Bottles" trigger and set the periodic maintenance period for the conveyor belt. To create new instructions for the maintenance routine, click on "Create New Instruction":
+Click on interval one to see the settings. Next, the user can define the "Due limit" and "Overdue limit" for the "Produced Bottles" trigger and set the periodic maintenance period for the conveyor belt. To create new instructions for the maintenance routine, click on "Create New Instruction":
 
 ![machine_monitor](graphics/Machine_Monitor_Parameters.png)
 
