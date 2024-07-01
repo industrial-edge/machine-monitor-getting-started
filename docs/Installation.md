@@ -107,8 +107,6 @@ An asset is a digital representation of a machine or automation system with one 
 
 On the left sidebar, click the `Assets & Connectivity` icon. Under "Hierarchy," you can find the parent asset "edge." To enable the Machine Monitor example to collect data from the IIH Essentials app, you need to create a child asset in the IIH Essentials with a name for the machine.
 
-> Hint: In the current release of the Machine Monitor, it is not possible to collect data from the parent asset "edge."
-
 ![IIHaddvar](graphics/IIHaddvar.PNG)
 
 The child asset is named " Tank_Filling_Application", the user is free to name the chil asset as needed. Click "Add multiple variables" on the right side to collect the needed data points from the S7 Connector. 
