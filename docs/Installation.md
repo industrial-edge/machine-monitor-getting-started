@@ -123,7 +123,7 @@ To access the Machine Monitor application, the user needs to install it on the I
 
 ![Machinemonitoroverview](graphics/Machinemonitoroverview.PNG) 
 
-The settings configured in the IIH Essentials app are imported by the Machine Monitor app. By default, the Machine Monitor starts by opening the parent asset, which in this case is "edge." However, in this example, the child asset "Tank_Filling_Application" is where the assets are configured. The user can click on the child asset, as highlighted in the figure, to preview the available variables and explore all the features.
+The assets configured in the IIH Essentials app are imported by the Machine Monitor app. By default, the Machine Monitor starts by opening the parent asset, which in this case is "edge." However, in this example, the child asset "Tank_Filling_Application" is where the assets are configured. The user can click on the child asset, as highlighted in the figure, to preview the available variables and explore all the features.
 
 ![Machinemonitorasset](graphics/Machinemonitorasset.png)
 
