@@ -368,7 +368,7 @@ The Machine Monitor apps provides the user with the ability to send notification
 
 In order to configure this feature, the user needs to clicks on "Asset settings".
 
-![Assetsettings](graphics/Assetsettings.PNG)
+![Assetsettings](graphics/Assetsettings1.PNG)
 
 Enable the connection to the Notifier app or enable the Email function (therefore the user needs also setup the connection to an email server via the settings page).
 
