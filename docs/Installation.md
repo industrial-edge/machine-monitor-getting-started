@@ -106,6 +106,8 @@ Once the SIMATIC S7 Connector is activated, Follw the Configure an asset with va
 An asset is a digital representation of a machine or automation system with one or more automation units (e.g.PLC). The data that describes an Asset is collected and stored. The data is then available for further processing and evaluation.
 
 On the left sidebar, click the `Assets & Connectivity` icon. Under "Hierarchy," you can find the parent asset "edge." To enable the Machine Monitor example to collect data from the IIH Essentials app, you need to create a child asset "Tank_Filling_Application" in the IIH Essentials with a name for the machine.
+![IIHAddvar.PNG](graphics/IIHAddvar.PNG) 
+
 
 ![IIHaddvar](graphics/IIHaddvar.PNG)
 
