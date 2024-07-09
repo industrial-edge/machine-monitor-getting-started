@@ -275,7 +275,7 @@ Select all the three Monitoring rules and click "assign" as highlighted below:
 
 All three rules are assigned to the child asset named "Tank_Filling_Application". The last step is to connect each rule with the corresponding process value. The user can see all the assigned rules by clicking on each rule, as highlighted in the figure below. By clicking on each rule, it is possible to configure the process value associated with the rule. Now, click on the rule "Conveyor Belt Lubrication - Bottle Produced" to finish the configuration process:
 
-![Addruleincomplete](graphics/Addruleincomplete.PNG)
+![Currentstatus](graphics/Currentstatus.PNG)
 
 The figure below highlights the necessary inputs that the user has to provide to configure the rule named "Conveyor Belt Lubrication - Bottle Produced" of type "Interval": 
 
