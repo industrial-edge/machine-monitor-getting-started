@@ -264,9 +264,9 @@ The procedure to create this rule is the same as the two previous rules. If ever
 
 ### Assigning rules to assets
 
-The three rules are now configured and ready to be associated with the corresponding assets. To assign rules to assets, the user needs to open the "Overview" tab and click on "Add rule" and select "Assign predefined monitoring rules" as highlighted in the figure below:
+The three rules are now configured and ready to be associated with the corresponding assets "Tank_Filling_Application". To assign rules to assets, the user needs to open the "Overview" tab and click on "Add rule" and select "Assign predefined monitoring rules" as highlighted in the figure below:
 
-![Addruleasset](graphics/Addruleasset.PNG)
+![Tankfillingaddrule](graphics/Tankfillingaddrule.PNG)
 
 
 Select all the three Monitoring rules and click "assign" as highlighted below:
