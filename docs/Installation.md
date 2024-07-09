@@ -291,7 +291,7 @@ Note: The Machine Monitor app provides the user with a projection for connected 
 
 4. Since the second trigger is a date, there is no more configuration needed
 
-![Linkvariable](graphics/Linkvariable.PNG)
+![Editrule](graphics/Editrule.PNG)
 
 After providing all the required information, click on "Save". By following the same steps, the user can configure the remaining two rules. The only difference is that for the parameter-based rule, the user defines the "Calculation period" instead of the interval starting time for the rule to perform the aggregation process if required.
 
