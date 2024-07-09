@@ -299,13 +299,13 @@ After providing all the required information, click on "Save". By following the 
 
 The user can now see that all the rules are marked as completed but not yet activated:
 
-![Notactivate](graphics/Notactivate.PNG)
+![Rulenotactive](graphics/Rulenotactive.PNG)
 
 
 The "Lubrication Rule" is activated first to introduce the application features. This is done by clicking on the three dots and selecting "Activate". The rule is now activated. After activating the rule and letting it run until we receive the first notification. As shown in the figure below, the "Lubrication Rule" is activated and it has produced its first alert. This rule has one trigger: the number of Faulty bottles. The number of Faulty bottles has reached the maintenance limit that we previously defined (Due limit: 300 Bottles, Overdue limit: 305 Bottles).
 
 
-![Activate](graphics/Activate1.PNG)
+![Ruleactive](graphics/Ruleactive.PNG)
 
 
 By clicking on the rule, the user can preview the current state and monitor any changes in either of the two triggers. For the produced bottles trigger, it can be deduced that it has already reached the limit and exceeded it by 3 bottles. As for the second trigger, there are still 29 days remaining. To remove the alert state of the rule, the machine operator has to carry out the maintenance routine. This can be registered using the "Register Maintenance" button highlighted in red in the figure below.
