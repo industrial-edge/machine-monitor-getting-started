@@ -38,7 +38,7 @@ Afterwards, the Machine Monitor app connects to the IIH Essentials and allows th
 
 - Access to an Industrial Edge Management System (IEM)
 - Onboarded Industial Edge Device on IEM
-- Installed System Configurators for Databus and S7 Connector
+- Installed System Configurators for Databus
 - Installed System Apps Databus and S7 Connector
 - Installed IIH Essentials
 - Installed Machine Monitor
