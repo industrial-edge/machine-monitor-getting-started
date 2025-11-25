@@ -24,7 +24,7 @@ This example shows how to use the Industrial Edge app "Machine Monitor".
 
 The app Machine Monitor provides transparency of the maintenance status of connected machines and allows the user to fully utilize the capabilities of the Industrial Edge Ecosystem. This tutorial shows how to collect data from a PLC into the Industrial Edge system, followed by leveraging the data to have a better understanding of the machine state and finally provide transparency  of the maintenance status of the machine.
 
-![machinemonitor](docs/graphics/machinemonitor.png)
+![machinemonitor](docs/graphics/Machinemonitorarchi.png)
 
 ### General task
 
