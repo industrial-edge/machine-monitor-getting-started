@@ -39,7 +39,29 @@ In order to build this infrastructure, the followings apps must be configured pr
 
 ### Configure Databus
 
-In your IEM open the Databus and launch the configurator.
+In your IEM click this Discover new experience to install databus configurator
+
+![databususer](graphics/Discovernewexperience.png)
+
+Click this icon and choose Managment
+
+![databususer](graphics/Managmentapp.png)
+
+Now install the Databus configurator application
+
+![databususer](graphics/Databusconfigurator.png)
+
+Databus application needs to be installed on Edge device
+
+![databususer](graphics/DatabusinstallIED.png)
+
+In your IEM click the data connection open the Databus and launch the application to your device
+
+![databususer](graphics/Dataconnectiondatabus.png)
+
+Click this '+' icon to add databus user
+
+![databususer](graphics/Clickadduser.png)
 
 Add a user with this topic:
 `"ie/#"`
