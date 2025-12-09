@@ -74,13 +74,29 @@ The user can preview if the topic was created successfully:
 
 Last step is to deploy the configuration.
 
-### Configure S7 Connector
+### Configure SIMATIC S7 Connector
 
-In your IEM open the S7 Connector and launch the configurator.
+Simatic S7 Connector can be configured via Commom Configurator
+
+In your Industrial edge device open the common configurator and configure the S7 connector
+
+This Configuration done locally at the Industrial edge Device
 
 Add a data source:
 
-![AdddatasourceS7](graphics/AdddatasourceS7.PNG)
+![AdddatasourceS7](graphics/Localconfigscreenshot.png)
+
+Add a Databus credentials in common configurator:
+
+![Databus_IIH.PNG](graphics/databuslocalconfig.png)
+
+Hint: Username and password should be the same as was set in the Databus configuration, e.g., "edge" / "edge".
+
+Click save.
+
+We can Browse the tags from the PLC 
+
+![Browse_IIH.PNG](graphics/BrowseS7.png)
 
 For this example the following tags are added:
 
@@ -91,11 +107,7 @@ For this example the following tags are added:
 
 ![S7tags](graphics/S7connectordeploy.PNG)
 
-Edit the settings:
 
-![databussettings](graphics/databussettings.PNG)
-
-Hint: Username and password should be the same for all system apps, e.g. "edge" / "edge".
 
 Deploy and start the project.
 
