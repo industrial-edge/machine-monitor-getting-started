@@ -160,7 +160,7 @@ By clicking on the **variables preview** icon, the user can check if the data is
 
 ## Configure Machine Monitor
 
-To access the Machine Monitor application, the user needs to install it on the IE Device and click on the application icon. Upon opening the application, the user will see the following figure:
+To access the Machine Monitor application, the user needs to install it on the Industrial Edge Device and click on the application icon. Upon opening the application, the user will see the following figure:
 
 ![Machinemonitoroverview](graphics/Machinemonitoroverview.PNG) 
 
