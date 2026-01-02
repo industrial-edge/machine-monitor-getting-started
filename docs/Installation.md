@@ -84,11 +84,11 @@ This Configuration done locally at the Industrial edge Device
 
 Add a data source:
 
-![AdddatasourceS7](graphics/Localconfigscreenshot.png)
+![AdddatasourceS7](graphics/adddatasourcemachines7.png)
 
 Add a Databus credentials in common configurator:
 
-![Databus_IIH.PNG](graphics/databuslocalconfig.png)
+![Databus_IIH.PNG](graphics/adddatabuss7machine.png)
 
 Hint: Username and password should be the same as was set in the Databus configuration, e.g., "edge" / "edge".
 
@@ -96,7 +96,9 @@ Click save.
 
 We can Browse the tags from the PLC 
 
-![Browse_IIH.PNG](graphics/BrowseS7.png)
+![Browse_IIH.PNG](graphics/Browsetagsmachinemonitor.png)
+
+![Browse_IIH.PNG](graphics/Tagsbrowsedmachine.png)
 
 For this example the following tags are added:
 
@@ -105,7 +107,7 @@ For this example the following tags are added:
 - GDB.process.numberProduced
 - GDB.process.numberFaulty
 
-![S7tags](graphics/S7connectordeploy.PNG)
+![S7tags](graphics/TagsaddedS7.png)
 
 
 
