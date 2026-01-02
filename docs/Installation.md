@@ -121,21 +121,13 @@ In your IED Web UI open the app IIH Essentials.
 
 Click on the icon `"Settings"` on the left side bar. The open the databus settings and enter the user name and password of user created in Databus Configurator.
 
-![IIHessentialsdatabus1](graphics/IIHessentialsdatabus1.PNG)
+![IIHessentialsdatabus1](graphics/DatabusIIH.png)
 
-Click on the icon `Connectors` on the left sidebar. To add a connector click on the `plus` icon. IIH Essentials discovers automatically all available connectors. In this example, the SIMATIC S7 Connector is used for the data collection.
+Click on the icon `Connectors` on the left sidebar. To Check SIMATIC S7 Connector is activated and connected to the IIH Essentials . IIH Essentials discovers automatically all available connectors. In this example, the SIMATIC S7 Connector is used for the data collection.
 
-![IIHS7config](graphics/IIHessentialsS7add.PNG)
+![IIHS7config](graphics/S7activestateIIhessentials.png)
 
-To use the connector click on `Add`. After that the connector must be activated. Therefore select this connector and click on `edit`, set `status` to active and save.
-
-![IIHedit](graphics/IIHedit.PNG)
-
-The connector (here SIMATIC S7 Connector) is now activated and connected to the IIH Essentials.
-
-![IIHS7active](graphics/IIHS7active.PNG)
-
-Once the SIMATIC S7 Connector is activated, Follw the Configure an asset with variable for configuration of Assets and Variables
+Follw the Configure an asset with variable for configuration of Assets and Variables
 
 ### Configure an asset with variables
 
