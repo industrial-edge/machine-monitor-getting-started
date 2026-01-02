@@ -135,11 +135,11 @@ An asset is a digital representation of a machine or automation system with one 
 
 On the left sidebar, click the `Manage Data` icon. Under "Hierarchy," you can find the parent asset "edge." To enable the Machine Monitor example to collect data from the IIH Essentials app, you need to create a child asset "Tank_Filling_Application" in the IIH Essentials with a name for the machine.
 
-![IIHAddvar.PNG](graphics/IIHAddvar.PNG) 
+![IIHAddvar.PNG](graphics/Addchildasset.png) 
 
 If you click the double arrow mark, In the Connection tab you have to select SIMATIC S7 Connector.
 
-![Addvarsimatics7](graphics/Addvarsimatics7.PNG)
+![Addvarsimatics7](graphics/selectconnection.png)
 
 Once you select the SIMATIC S7 Connector under the Connection tab, you have the select these four tags which is mentioned bellow:
 
@@ -148,11 +148,11 @@ Once you select the SIMATIC S7 Connector under the Connection tab, you have the 
 - GDB.signals.tankSignals.actLevel
 - GDB.signals.tankSignals.actTemperature
 
-![IIHaddvar](graphics/IIHaddvar.PNG)
+![IIHaddvar](graphics/Createall.png)
 
 The child asset is named " Tank_Filling_Application", the user is free to name the chil asset as needed. Click "Add multiple variables" on the right side to collect the needed data points from the S7 Connector. 
 
-![IIHtageoverview](graphics/IIHtageoverview.PNG)
+![IIHtageoverview](graphics/Tagsaddedtoasset.png)
 
 By clicking on the **variables preview** icon, the user can check if the data is being collected correctly from the Databus and get a preview of the collected data.
 
