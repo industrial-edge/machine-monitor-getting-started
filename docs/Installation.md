@@ -217,7 +217,7 @@ To begin configuring rules, click on the "Configuration" icon in the sidebar, an
 
 The user will be directed to the page shown in the figure below. If any previous rules have been configured, they can be previewed here. To create a new rule, click on the "New Monitoring Rule" button, as highlighted in the figure below.
 
-![Addnewmonitoringrules](graphics/Addnewmonitoringrules.PNG)
+![Addnewmonitoringrules](graphics/Newmonitoringrules.png)
 
 > Note: If the browser being used is not compatible with the system, the Machine Monitor app may not display the "New Monitoring Rule" button.
 
