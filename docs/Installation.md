@@ -166,7 +166,7 @@ To access the Machine Monitor application, the user needs to install it on the I
 
 The assets configured in the IIH Essentials app are imported by the Machine Monitor app. By default, the Machine Monitor starts by opening the parent asset, which in this case is "edge." However, in this example, the child asset "Tank_Filling_Application" is where the assets are configured. The user can click on the child asset, as highlighted in the figure, to preview the available variables and explore all the features.
 
-![Machinemonitorasset](graphics/Machinemonitorasset.png)
+![Machinemonitorasset](graphics/MachineMonitorchildasset.png)
 
 ### Configured parameters
 
@@ -187,13 +187,13 @@ The Machine Monitor example utilize these acquired data points to create mainten
 
 ### Connectivity troubleshooting
 
-Note: If the configured parameters do not appear in the Machine Monitor application, the user needs to check the configuration of the IIH Essentials application and then verify the credentials used for connecting the Machine Monitor application to the Databus. To do this, click on the "Settings" tab in the sidebar and then select "Connectivity Configuration," as highlighted in the figure below:
+Note: If the configured parameters do not appear in the Machine Monitor application, the user needs to check the configuration of the IIH Essentials application and then verify the credentials used for connecting the Machine Monitor application to the Databus. To do this, click on the "Settings" tab in the sidebar and then select "Analytics extension," as highlighted in the figure below:
 
-![Machinemonitorsettings](graphics/Machinemonitorsettings.PNG) 
+![Machinemonitorsettings](graphics/Analyticsextensions.png) 
 
 The user will then see the figure below and can check the credentials and address used for connecting the Machine Monitor app to the Databus app, as well as test the connection:
 
-![Machinemonitorconfigsettings](graphics/Machinemonitorconfigsettings.PNG)
+![Machinemonitorconfigsettings](graphics/Machinemonitordatabus.png)
 
 ### Configuring rules and templates
 
