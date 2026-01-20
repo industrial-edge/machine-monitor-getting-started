@@ -24,7 +24,7 @@ This example shows how to use the Industrial Edge app "Machine Monitor".
 
 The app Machine Monitor provides transparency of the maintenance status of connected machines and allows the user to fully utilize the capabilities of the Industrial Edge Ecosystem. This tutorial shows how to collect data from a PLC into the Industrial Edge system, followed by leveraging the data to have a better understanding of the machine state and finally provide transparency  of the maintenance status of the machine.
 
-![machinemonitor](docs/graphics/machinemonitor.png)
+![machinemonitor](docs/graphics/Machinemonitorarchi.png)
 
 ### General task
 
@@ -38,7 +38,7 @@ Afterwards, the Machine Monitor app connects to the IIH Essentials and allows th
 
 - Access to an Industrial Edge Management System (IEM)
 - Onboarded Industial Edge Device on IEM
-- Installed System Configurators for Databus and S7 Connector
+- Installed System Configurators for Databus
 - Installed System Apps Databus and S7 Connector
 - Installed IIH Essentials
 - Installed Machine Monitor
@@ -48,15 +48,15 @@ Afterwards, the Machine Monitor app connects to the IIH Essentials and allows th
 
 ### Used components
 
-- Industrial Edge Management V1.16.11
-  - Databus V2.3.3-2
-  - S7 Connector V2.1.1-0 
-  - IIH Essentials V1.10.0-0
-  - Machine Monitor V2.6.0
-  - Common Configurator V1.10.0-4
-- Industrial Edge Device V 1.12.0-10
-- TIA Portal V18
-- S7-PLCSIM Advanced V5.0
+- Industrial Edge Management V2.6.1-4
+  - Databus V3.2.1
+  - S7 Connector V2.3.2
+  - IIH Essentials V2.3.1
+  - Machine Monitor V3.0.1
+  - Common Configurator V2.3.1
+- Industrial Edge Device V 3.1.0
+- TIA Portal V20
+- S7-PLCSIM Advanced V6.0
 
 ### TIA Project
 

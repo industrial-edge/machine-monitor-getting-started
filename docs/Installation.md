@@ -39,7 +39,29 @@ In order to build this infrastructure, the followings apps must be configured pr
 
 ### Configure Databus
 
-In your IEM open the Databus and launch the configurator.
+In your IEM click this Discover new experience to install databus configurator
+
+![databususer](graphics/Discovernewexperience.png)
+
+Click this icon and choose Managment
+
+![databususer](graphics/Managmentapp.png)
+
+Now install the Databus configurator application
+
+![databususer](graphics/Databusconfigurator.png)
+
+Databus application needs to be installed on Edge device
+
+![databususer](graphics/DatabusinstallIED.png)
+
+In your IEM click the data connection open the Databus and launch the application to your device
+
+![databususer](graphics/Dataconnectiondatabus.png)
+
+Click this '+' icon to add databus user
+
+![databususer](graphics/Clickadduser.png)
 
 Add a user with this topic:
 `"ie/#"`
@@ -52,13 +74,31 @@ The user can preview if the topic was created successfully:
 
 Last step is to deploy the configuration.
 
-### Configure S7 Connector
+### Configure SIMATIC S7 Connector
 
-In your IEM open the S7 Connector and launch the configurator.
+Simatic S7 Connector can be configured via Commom Configurator
+
+In your Industrial edge device open the common configurator and configure the S7 connector
+
+This Configuration done locally at the Industrial edge Device
 
 Add a data source:
 
-![AdddatasourceS7](graphics/AdddatasourceS7.PNG)
+![AdddatasourceS7](graphics/adddatasourcemachines7.png)
+
+Add a Databus credentials in common configurator:
+
+![Databus_IIH.PNG](graphics/adddatabuss7machine.png)
+
+Hint: Username and password should be the same as was set in the Databus configuration, e.g., "edge" / "edge".
+
+Click save.
+
+We can Browse the tags from the PLC 
+
+![Browse_IIH.PNG](graphics/Browsetagsmachinemonitor.png)
+
+![Browse_IIH.PNG](graphics/Tagsbrowsedmachine.png)
 
 For this example the following tags are added:
 
@@ -67,13 +107,9 @@ For this example the following tags are added:
 - GDB.process.numberProduced
 - GDB.process.numberFaulty
 
-![S7tags](graphics/S7connectordeploy.PNG)
+![S7tags](graphics/TagsaddedS7.png)
 
-Edit the settings:
 
-![databussettings](graphics/databussettings.PNG)
-
-Hint: Username and password should be the same for all system apps, e.g. "edge" / "edge".
 
 Deploy and start the project.
 
@@ -85,46 +121,38 @@ In your IED Web UI open the app IIH Essentials.
 
 Click on the icon `"Settings"` on the left side bar. The open the databus settings and enter the user name and password of user created in Databus Configurator.
 
-![IIHessentialsdatabus1](graphics/IIHessentialsdatabus1.PNG)
+![IIHessentialsdatabus1](graphics/DatabusIIH.png)
 
-Click on the icon `Connectors` on the left sidebar. To add a connector click on the `plus` icon. IIH Essentials discovers automatically all available connectors. In this example, the SIMATIC S7 Connector is used for the data collection.
+Click on the icon `Connectors` on the left sidebar. To Check SIMATIC S7 Connector is activated and connected to the IIH Essentials . IIH Essentials discovers automatically all available connectors. In this example, the SIMATIC S7 Connector is used for the data collection.
 
-![IIHS7config](graphics/IIHessentialsS7add.PNG)
+![IIHS7config](graphics/S7activestateIIhessentials.png)
 
-To use the connector click on `Add`. After that the connector must be activated. Therefore select this connector and click on `edit`, set `status` to active and save.
-
-![IIHedit](graphics/IIHedit.PNG)
-
-The connector (here SIMATIC S7 Connector) is now activated and connected to the IIH Essentials.
-
-![IIHS7active](graphics/IIHS7active.PNG)
-
-Once the SIMATIC S7 Connector is activated, Follw the Configure an asset with variable for configuration of Assets and Variables
+Follw the Configure an asset with variable for configuration of Assets and Variables
 
 ### Configure an asset with variables
 
 An asset is a digital representation of a machine or automation system with one or more automation units (e.g.PLC). The data that describes an Asset is collected and stored. The data is then available for further processing and evaluation.
 
-On the left sidebar, click the `Assets & Connectivity` icon. Under "Hierarchy," you can find the parent asset "edge." To enable the Machine Monitor example to collect data from the IIH Essentials app, you need to create a child asset "Tank_Filling_Application" in the IIH Essentials with a name for the machine.
+On the left sidebar, click the `Manage Data` icon. Under "Hierarchy," you can find the parent asset "edge." To enable the Machine Monitor example to collect data from the IIH Essentials app, you need to create a child asset "Tank_Filling_Application" in the IIH Essentials with a name for the machine.
 
-![IIHAddvar.PNG](graphics/IIHAddvar.PNG) 
+![IIHAddvar.PNG](graphics/Addchildasset.png) 
 
-If you click the Add variable, In the Browse connector tab you have to select SIMATIC S7 Connector.
+If you click the double arrow mark, In the Connection tab you have to select SIMATIC S7 Connector.
 
-![Addvarsimatics7](graphics/Addvarsimatics7.PNG)
+![Addvarsimatics7](graphics/selectconnection.png)
 
-Once you select the SIMATIC S7 Connector under the Browse connector tab, you have the select these four tags which is mentioned bellow:
+Once you select the SIMATIC S7 Connector under the Connection tab, you have the select these four tags which is mentioned bellow:
 
 - GDB.process.numberFaulty
 - GDB.process.numberProduced
 - GDB.signals.tankSignals.actLevel
 - GDB.signals.tankSignals.actTemperature
 
-![IIHaddvar](graphics/IIHaddvar.PNG)
+![IIHaddvar](graphics/Createall.png)
 
 The child asset is named " Tank_Filling_Application", the user is free to name the chil asset as needed. Click "Add multiple variables" on the right side to collect the needed data points from the S7 Connector. 
 
-![IIHtageoverview](graphics/IIHtageoverview.PNG)
+![IIHtageoverview](graphics/Tagsaddedtoasset.png)
 
 By clicking on the **variables preview** icon, the user can check if the data is being collected correctly from the Databus and get a preview of the collected data.
 
@@ -132,13 +160,13 @@ By clicking on the **variables preview** icon, the user can check if the data is
 
 ## Configure Machine Monitor
 
-To access the Machine Monitor application, the user needs to install it on the IE Device and click on the application icon. Upon opening the application, the user will see the following figure:
+To access the Machine Monitor application, the user needs to install it on the Industrial Edge Device and click on the application icon. Upon opening the application, the user will see the following figure:
 
 ![Machinemonitoroverview](graphics/Machinemonitoroverview.PNG) 
 
 The assets configured in the IIH Essentials app are imported by the Machine Monitor app. By default, the Machine Monitor starts by opening the parent asset, which in this case is "edge." However, in this example, the child asset "Tank_Filling_Application" is where the assets are configured. The user can click on the child asset, as highlighted in the figure, to preview the available variables and explore all the features.
 
-![Machinemonitorasset](graphics/Machinemonitorasset.png)
+![Machinemonitorasset](graphics/MachineMonitorchildasset.png)
 
 ### Configured parameters
 
@@ -159,13 +187,13 @@ The Machine Monitor example utilize these acquired data points to create mainten
 
 ### Connectivity troubleshooting
 
-Note: If the configured parameters do not appear in the Machine Monitor application, the user needs to check the configuration of the IIH Essentials application and then verify the credentials used for connecting the Machine Monitor application to the Databus. To do this, click on the "Settings" tab in the sidebar and then select "Connectivity Configuration," as highlighted in the figure below:
+Note: If the configured parameters do not appear in the Machine Monitor application, the user needs to check the configuration of the IIH Essentials application and then verify the credentials used for connecting the Machine Monitor application to the Databus. To do this, click on the "Settings" tab in the sidebar and then select "Analytics extension," as highlighted in the figure below:
 
-![Machinemonitorsettings](graphics/Machinemonitorsettings.PNG) 
+![Machinemonitorsettings](graphics/Analyticsextensions.png) 
 
 The user will then see the figure below and can check the credentials and address used for connecting the Machine Monitor app to the Databus app, as well as test the connection:
 
-![Machinemonitorconfigsettings](graphics/Machinemonitorconfigsettings.PNG)
+![Machinemonitorconfigsettings](graphics/Machinemonitordatabus.png)
 
 ### Configuring rules and templates
 
@@ -189,7 +217,7 @@ To begin configuring rules, click on the "Configuration" icon in the sidebar, an
 
 The user will be directed to the page shown in the figure below. If any previous rules have been configured, they can be previewed here. To create a new rule, click on the "New Monitoring Rule" button, as highlighted in the figure below.
 
-![Addnewmonitoringrules](graphics/Addnewmonitoringrules.PNG)
+![Addnewmonitoringrules](graphics/Newmonitoringrules.png)
 
 > Note: If the browser being used is not compatible with the system, the Machine Monitor app may not display the "New Monitoring Rule" button.
 
