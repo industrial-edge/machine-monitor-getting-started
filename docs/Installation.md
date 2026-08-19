@@ -32,34 +32,20 @@ To retrieve data from the Programmable Logic Controller (PLC), the S7 Connector 
 
 In order to build this infrastructure, the followings apps must be configured properly:
 
-- S7 Connector
+- S7 Connector or OPC UA Connector
 - Databus
 - IIH Essentials
 - Machine Monitor
 
 ### Configure Databus
 
-In your IEM click this Discover new experience to install databus configurator
+If you haven't installed the databus yet, on your IEM, go to applications, search for the databus app and install it on the device that is going to be used.
 
-![databususer](graphics/Discovernewexperience.png)
+In your IEM go to data connections and open the Databus 
 
-Click this icon and choose Managment
+![](graphics/IEM_databus.png)
 
-![databususer](graphics/Managmentapp.png)
-
-Now install the Databus configurator application
-
-![databususer](graphics/Databusconfigurator.png)
-
-Databus application needs to be installed on Edge device
-
-![databususer](graphics/DatabusinstallIED.png)
-
-In your IEM click the data connection open the Databus and launch the application to your device
-
-![databususer](graphics/Dataconnectiondatabus.png)
-
-Click this '+' icon to add databus user
+The databus has now been launched. Click this '+' icon to add databus user
 
 ![databususer](graphics/Clickadduser.png)
 
