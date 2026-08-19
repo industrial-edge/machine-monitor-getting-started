@@ -260,7 +260,8 @@ The user needs to define limits for the configured triggers. As highlighted in t
 - The accepted range for the threshold value
 - The alert and warning section for values above than the acccepted threshold
 
-The user also needs to define the lowest and highest values for the trigger. For example, for the temperature parameter, the range is set from 0 to 100 °C. The figure below shows the values provided for the temperature trigger, and the same process is followed for the liquid level parameter.
+The user also needs to define the lowest and highest values for the trigger. For example, for the temperature parameter, the range is set from 0 to 100 °C. 
+The figure below shows the values provided for the temperature trigger, and the same process is followed for the liquid level parameter, but with range from 0 to 1000L.
 
 ![Secondrulelimits](graphics/Secondrulelimits.PNG)
 
@@ -308,6 +309,8 @@ Note: The Machine Monitor app provides the user with a projection for connected 
 ![Editrule](graphics/Editrule.PNG)
 
 After providing all the required information, click on "Save". By following the same steps, the user can configure the remaining two rules. The only difference is that for the parameter-based rule, the user defines the "Calculation period" instead of the interval starting time for the rule to perform the aggregation process if required.
+
+![](graphics/tank_health_rule_assignment.png)
 
 ### Rules activation
 
