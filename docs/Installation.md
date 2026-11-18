@@ -32,34 +32,27 @@ To retrieve data from the Programmable Logic Controller (PLC), the S7 Connector 
 
 In order to build this infrastructure, the followings apps must be configured properly:
 
-- S7 Connector
+- S7+ Connector or OPC UA High Performance Connector
 - Databus
+- Common Configurator
 - IIH Essentials
 - Machine Monitor
 
 ### Configure Databus
 
-In your IEM click this Discover new experience to install databus configurator
+If you haven't installed the databus on your IEM, go to Applications > Management, search for the Databus Configurator app and install it.
 
-![databususer](graphics/Discovernewexperience.png)
+![](graphics/IEM_databus_configurator.png)
 
-Click this icon and choose Managment
+Then, on your IEM, go to Applications > Device, search for the Databus app and install it on the device that is going to be used
 
-![databususer](graphics/Managmentapp.png)
+![](graphics/IEM_databus_install.png)
 
-Now install the Databus configurator application
+In your IEM go to data connections and open the Databus 
 
-![databususer](graphics/Databusconfigurator.png)
+![](graphics/IEM_databus.png)
 
-Databus application needs to be installed on Edge device
-
-![databususer](graphics/DatabusinstallIED.png)
-
-In your IEM click the data connection open the Databus and launch the application to your device
-
-![databususer](graphics/Dataconnectiondatabus.png)
-
-Click this '+' icon to add databus user
+The databus has now been launched. Click this '+' icon to add databus user
 
 ![databususer](graphics/Clickadduser.png)
 
@@ -274,7 +267,8 @@ The user needs to define limits for the configured triggers. As highlighted in t
 - The accepted range for the threshold value
 - The alert and warning section for values above than the acccepted threshold
 
-The user also needs to define the lowest and highest values for the trigger. For example, for the temperature parameter, the range is set from 0 to 100 °C. The figure below shows the values provided for the temperature trigger, and the same process is followed for the liquid level parameter.
+The user also needs to define the lowest and highest values for the trigger. For example, for the temperature parameter, the range is set from 0 to 100 °C. 
+The figure below shows the values provided for the temperature trigger, and the same process is followed for the liquid level parameter, but with range from 0 to 1000L.
 
 ![Secondrulelimits](graphics/Secondrulelimits.PNG)
 
@@ -322,6 +316,8 @@ Note: The Machine Monitor app provides the user with a projection for connected 
 ![Editrule](graphics/Editrule.PNG)
 
 After providing all the required information, click on "Save". By following the same steps, the user can configure the remaining two rules. The only difference is that for the parameter-based rule, the user defines the "Calculation period" instead of the interval starting time for the rule to perform the aggregation process if required.
+
+![](graphics/tank_health_rule_assignment.png)
 
 ### Rules activation
 
