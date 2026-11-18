@@ -34,6 +34,7 @@ In order to build this infrastructure, the followings apps must be configured pr
 
 - S7 Connector or OPC UA Connector
 - Databus
+- Common Configurator
 - IIH Essentials
 - Machine Monitor
 
