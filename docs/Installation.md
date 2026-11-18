@@ -32,7 +32,7 @@ To retrieve data from the Programmable Logic Controller (PLC), the S7 Connector 
 
 In order to build this infrastructure, the followings apps must be configured properly:
 
-- S7+ Connector or OPC UA HP Connector
+- S7+ Connector or OPC UA High Performance Connector
 - Databus
 - Common Configurator
 - IIH Essentials
