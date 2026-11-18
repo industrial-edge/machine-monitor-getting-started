@@ -32,7 +32,7 @@ To retrieve data from the Programmable Logic Controller (PLC), the S7 Connector 
 
 In order to build this infrastructure, the followings apps must be configured properly:
 
-- S7 Connector or OPC UA Connector
+- S7+ Connector or OPC UA HP Connector
 - Databus
 - Common Configurator
 - IIH Essentials
@@ -40,7 +40,13 @@ In order to build this infrastructure, the followings apps must be configured pr
 
 ### Configure Databus
 
-If you haven't installed the databus yet, on your IEM, go to applications, search for the databus app and install it on the device that is going to be used.
+If you haven't installed the databus on your IEM, go to Applications > Management, search for the Databus Configurator app and install it.
+
+![](graphics/IEM_databus_configurator.png)
+
+Then, on your IEM, go to Applications > Device, search for the Databus app and install it on the device that is going to be used
+
+![](graphics/IEM_databus_install.png)
 
 In your IEM go to data connections and open the Databus 
 
